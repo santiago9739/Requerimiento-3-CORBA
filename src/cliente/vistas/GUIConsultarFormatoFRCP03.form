@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="41" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="lbConsultarFormatoFRCP03" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnAtras" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbIdentificacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarNumeroFase" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarFechaSesion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarNumeroSesion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarPresionArterial" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarFrecuenciaCardiacaInicial" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarFrecuenciaCardiacaFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarSaturacionOxigeno" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarEstadoPaciente" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbConsultarObservaciones" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtConsultarFechaSesion" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarNumeroFase" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarNumeroSesion" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarPresionArterial" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarFrecuenciaCardiacaInicial" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarFrecuenciaCardiacaFinal" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarSaturacionOxigeno" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="txtConsultarEstadoPaciente" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jScrollPane1" alignment="0" pref="195" max="32767" attributes="0"/>
+                                      <Component id="txtConsultarId" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="btnConsultarId" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnAtras" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lbConsultarFormatoFRCP03" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbIdentificacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarId" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="btnConsultarId" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarNumeroFase" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarNumeroFase" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarFechaSesion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarFechaSesion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarNumeroSesion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarNumeroSesion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarPresionArterial" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarPresionArterial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarFrecuenciaCardiacaInicial" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarFrecuenciaCardiacaInicial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarFrecuenciaCardiacaFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarFrecuenciaCardiacaFinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarSaturacionOxigeno" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarSaturacionOxigeno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbConsultarEstadoPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtConsultarEstadoPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lbConsultarObservaciones" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="62" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbConsultarFormatoFRCP03">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial Rounded MT Bold" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Consultar Formato FRCP-03"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAtras">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagenes/atras.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAtrasActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIdentificacion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Identificacion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtConsultarId">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtConsultarIdKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnConsultarId">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Consultar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConsultarIdActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarNumeroFase">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de Fase:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarNumeroFase">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarFechaSesion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fecha de Sesi&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarFechaSesion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarNumeroSesion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarNumeroSesion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de Sesi&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarPresionArterial">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Presi&#xf3;n Arterial:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarPresionArterial">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarFrecuenciaCardiacaInicial">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarFrecuenciaCardiacaInicial">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Frecuencia Cardiaca Inicial:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarFrecuenciaCardiacaFinal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarFrecuenciaCardiacaFinal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Frecuencia Cardiaca Final:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarSaturacionOxigeno">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Saturaci&#xf3;n Oxigeno:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarSaturacionOxigeno">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="txtConsultarEstadoPaciente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarEstadoPaciente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Estado del Paciente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbConsultarObservaciones">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Observaciones:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtConsultarObservaciones">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
